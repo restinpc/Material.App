@@ -1,0 +1,20 @@
+/**
+ * Material.App - Sidebar stylesheets.
+ *
+ * @ 06.02.2020 # Aleksandr <Vorkunov.Al.Va@omega.sbrf.ru>
+ */
+
+.sidebar .logo{
+    height: 77px;
+    padding: 20px;
+}
+
+.sidebar .logo{
+    padding-top: 12px !important;
+    vertical-align: top;
+}
+
+.sidebar .logo-normal{
+    padding-top: 10px !important;
+    padding-left: 40px !important;
+}
