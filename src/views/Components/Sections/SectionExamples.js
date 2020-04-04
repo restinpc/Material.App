@@ -4,8 +4,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import GridContainer from "../../../components/Grid/GridContainer";
 import GridItem from "../../../components/GridItem/GridItem";
 import Button from "../../../components/Button/Button";
-import landing from "../../../assets/img/landing.jpg";
-import profile from "../../../assets/img/profile.jpg";
+import landing from "../../../assets/img/landing.webp";
+import profile from "../../../assets/img/profile.webp";
 import styles from "../../../assets/jss/material-kit-react/views/componentsSections/exampleStyle.js";
 
 const useStyles = makeStyles(styles);

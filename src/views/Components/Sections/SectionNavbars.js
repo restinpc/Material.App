@@ -14,7 +14,7 @@ import Header from "../../../components/Header/Header";
 import CustomInput from "../../../components/CustomInput/CustomInput";
 import CustomDropdown from "../../../components/CustomDropdown/CustomDropdown";
 import Button from "../../../components/Button/Button";
-import image from "../../../assets/img/bg.jpg";
+import image from "../../../assets/img/bg.webp";
 import profileImage from "../../../assets/img/faces/avatar.jpg";
 import styles from "../../../assets/jss/material-kit-react/views/componentsSections/navbarsStyle.js";
 

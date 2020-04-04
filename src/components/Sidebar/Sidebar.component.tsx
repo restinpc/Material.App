@@ -12,7 +12,7 @@ import "./Sidebar.css";
 import isString from "../../functions/isString";
 import {RefObject} from "react";
 // @ts-ignore
-import logo from "../../assets/img/logo.png";
+import logo from "../../assets/img/logo.webp";
 
 class SidebarComponent extends React.Component<ISidebarProps, ISidebarState> {
     state: ISidebarState;

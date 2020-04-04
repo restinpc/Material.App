@@ -1,13 +1,12 @@
-declare global {
-  interface Document extends Node, NonElementParentNode, DocumentOrShadowRoot, ParentNode, GlobalEventHandlers, DocumentAndElementEventHandlers {
+declare interface Document extends Node, NonElementParentNode, DocumentOrShadowRoot, ParentNode, GlobalEventHandlers, DocumentAndElementEventHandlers {
     [x: string]: Store<any, AnyAction>;
 
     /**
      * Sets or gets the URL for the current document.
      */
     traceStack: string[];
-    dataSource: import("./dataSource").default;
-    handler: import("./errorHandler").default;
+    dataSource: import("./src/dataSource").default;
+    handler: import("./src/errorHandler").default;
 
     readonly URL: string;
     /**
@@ -641,17 +640,13 @@ declare global {
 
     removeEventListener(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | EventListenerOptions): void;
   }
-}
 
-
-/// <reference types="node" />
-/// <reference types="react" />
-/// <reference types="react-dom" />
-
-declare namespace NodeJS {
-  interface ProcessEnv {
-    readonly NODE_ENV: 'development' | 'production' | 'test';
-    readonly PUBLIC_URL: string;
+declare global {
+  namespace NodeJS {
+    interface ProcessEnv {
+      readonly NODE_ENV: 'development' | 'production' | 'test';
+      readonly PUBLIC_URL: string;
+    }
   }
 }
 

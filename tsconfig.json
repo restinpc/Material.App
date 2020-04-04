@@ -8,11 +8,16 @@
     "lib": ["es6", "dom"],
     "rootDir": "src",
     "allowSyntheticDefaultImports": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "types": ["node"],
+    "typeRoots": [
+      "./node_modules/@types/react/index.d.ts",
+      "global.d.ts"
+    ]
   },
   "files": [
     "./node_modules/@types/react/index.d.ts",
-    "./src/react-app-env.d.ts"
+    "global.d.ts"
   ],
   "exclude": [
     ".idea",
