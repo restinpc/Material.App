@@ -27,7 +27,12 @@ const loginStyle = {
     marginRight: "20px",
     marginTop: "-40px",
     padding: "20px 0",
-    marginBottom: "15px"
+    marginBottom: "15px",
+    color: "#333",
+  },
+  loginCaption: {
+    color: "#333",
+    fontSize: "28px",
   },
   socialIcons: {
     maxWidth: "24px",

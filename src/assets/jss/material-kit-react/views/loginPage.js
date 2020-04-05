@@ -45,7 +45,7 @@ const signupPageStyle = {
     }
   },
   form: {
-    margin: "0"
+    margin: "15px",
   },
   cardHeader: {
     width: "auto",
@@ -66,6 +66,12 @@ const signupPageStyle = {
     height: "100%",
     lineHeight: "41px",
     fontSize: "20px"
+  },
+  loginCaption: {
+    color: "#333",
+    fontSize: "28px",
+    marginTop: "15px",
+    textAlign: "center",
   },
   divider: {
     marginTop: "30px",

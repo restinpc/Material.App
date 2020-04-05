@@ -24,7 +24,7 @@ export default function SectionLogin() {
             <Card content={
               <form className={classes.form}>
                 <div className={classes.cardHeader}>
-                  <h4>Login</h4>
+                  <h4 className={classes.loginCaption}>Login</h4>
                   <CustomInput
                       labelText="First Name..."
                       id="first"

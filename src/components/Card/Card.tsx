@@ -13,8 +13,14 @@ const Card: React.FunctionComponent<ICardProps> = (props) => {
     return (
       <div className={"card" + (props.plain ? " card-plain" : "")}>
         <div className={"header" + (props.hCenter ? " text-center" : "")}>
-          <h4 className="title">{props.title}</h4>
-          <p className="category">{props.category}</p>
+            {
+                props.title &&
+                <h4 className="title">{props.title}</h4>
+            }
+            {
+                props.category &&
+                <p className="category">{props.category}</p>
+            }
         </div>
         <div
           className={
@@ -27,13 +33,18 @@ const Card: React.FunctionComponent<ICardProps> = (props) => {
           }
         >
           {props.content}
-          <div className="footer">
-            {props.legend}
-            {props.stats != null ? <hr /> : ""}
-            <div className="stats">
-              <i className={props.statsIcon} /> {props.stats}
-            </div>
-          </div>
+            {
+                ( props.legend || props.stats ) &&
+                (
+                    <div className="footer">
+                        {props.legend}
+                        {props.stats != null ? <hr /> : ""}
+                        <div className="stats">
+                            <i className={props.statsIcon} /> {props.stats}
+                        </div>
+                    </div>
+                )
+            }
         </div>
       </div>
     );

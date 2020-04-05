@@ -1,7 +1,8 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import InputAdornment from "@material-ui/core/InputAdornment";
-import Icon from "@material-ui/core/Icon";
+import LockOutlined from "@material-ui/icons/LockOutlined";
 import Email from "@material-ui/icons/Email";
 import People from "@material-ui/icons/People";
 import Header from "../../components/Header/Header";
@@ -46,24 +47,9 @@ export default function LoginPage(props) {
             <GridItem xs={12} sm={12} md={4}>
               <Card className={classes[cardAnimaton]} content={
                 <form className={classes.form}>
-                  <h1>Login</h1>
+                  <h1 className={classes.loginCaption}>Login</h1>
                   <CustomInput
-                      labelText="First Name..."
-                      id="first"
-                      formControlProps={{
-                        fullWidth: true
-                      }}
-                      inputProps={{
-                        type: "text",
-                        endAdornment: (
-                            <InputAdornment position="end">
-                              <People className={classes.inputIconsColor}/>
-                            </InputAdornment>
-                        )
-                      }}
-                  />
-                  <CustomInput
-                      labelText="Email..."
+                      labelText="Email"
                       id="email"
                       formControlProps={{
                         fullWidth: true
@@ -87,17 +73,22 @@ export default function LoginPage(props) {
                         type: "password",
                         endAdornment: (
                             <InputAdornment position="end">
-                              <Icon className={classes.inputIconsColor}>
-                                lock_outline
-                              </Icon>
+                              <LockOutlined className={classes.inputIconsColor} />
                             </InputAdornment>
                         ),
                         autoComplete: "off"
                       }}
                   />
-                  <Button simple color="primary" size="lg">
-                    Get started
-                  </Button>
+                    <div style={{paddingTop: "20px", textAlign: "center"}}>
+                        <Button variant="contained" color="primary" size="large" style={{margin: "0px auto"}}>
+                            Get started!
+                        </Button>
+                        <br/>
+                        <div style={{paddingTop:'40px',paddingBottom:'10px', color:"#666", textAlign: "center"}}>
+                            Problems with sign in? &nbsp;
+                            <NavLink to="/register">Restore an access &crarr;</NavLink>
+                        </div>
+                    </div>
                 </form>
               }
               />

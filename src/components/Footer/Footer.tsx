@@ -47,11 +47,11 @@ export default function Footer(props) {
                         </ListItem>
                         <ListItem className={classes.inlineBlock}>
                             <a
-                                href="https://stash.delta.sbrf.ru/users/out-vorkunov-av/repos/material.app/browse"
+                                href="https://github.com/restinpc/Material.App"
                                 className={classes.block}
                                 target="_blank"
                             >
-                                BitBucket
+                                GitHub
                             </a>
                         </ListItem>
                     </List>
