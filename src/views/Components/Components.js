@@ -20,7 +20,7 @@ import SectionLogin from "./Sections/SectionLogin.js";
 import SectionExamples from "./Sections/SectionExamples.js";
 import SectionDownload from "./Sections/SectionDownload.js";
 import styles from "../../assets/jss/material-kit-react/views/components.js";
-import logo from "../../assets/img/logo.webp";
+import logo from "../../assets/img/logo.png";
 
 const useStyles = makeStyles(styles);
 
@@ -44,7 +44,7 @@ export default function Components(props) {
         }}
         {...rest}
         />
-        <Parallax image={require("../../assets/img/main-banner.webp")}>
+        <Parallax image={require("../../assets/img/main-banner.jpg")}>
             <div className={classes.container}>
                 <GridContainer>
                     <GridItem>

@@ -1,7 +1,7 @@
 /**
  * Material.App - Card Props.
  *
- * @ 21.01.2020 # Aleksandr <Vorkunov.Al.Va@omega.sbrf.ru>
+ * @ 21.01.2020 # Aleksandr <developing@nodes-tech.ru>
  */
 
 import {ReactElement, ReactNode} from "react";

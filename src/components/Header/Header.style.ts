@@ -1,7 +1,7 @@
 /**
  * Material.App - Header CSS properties.
  *
- * @ 06.02.2020 # Aleksandr <Vorkunov.Al.Va@omega.sbrf.ru>
+ * @ 06.02.2020 # Aleksandr <developing@nodes-tech.ru>
  */
 
 import {
@@ -63,9 +63,9 @@ const headerStyle = {
         fontSize: "18px",
         borderRadius: "3px",
         textTransform: "none",
-        color: "inherit",
         padding: "8px 16px",
         letterSpacing: "unset",
+        color: "#fff",
         "&:hover,&:focus": {
             color: "inherit",
             background: "transparent"

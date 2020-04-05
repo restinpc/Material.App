@@ -1,7 +1,7 @@
 /**
  * Material.App - CustomLinearProgress Props.
  *
- * @ 31.01.2020 # Aleksandr <Vorkunov.Al.Va@omega.sbrf.ru>
+ * @ 31.01.2020 # Aleksandr <developing@nodes-tech.ru>
  */
 
 import PropTypes from "prop-types";

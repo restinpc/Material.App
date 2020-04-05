@@ -13,7 +13,7 @@ import Button from "../../components/Button/Button";
 import Card from "../../components/Card/Card";
 import CustomInput from "../../components/CustomInput/CustomInput";
 import styles from "../../assets/jss/material-kit-react/views/loginPage.js";
-import image from "../../assets/img/bg7.webp";
+import image from "../../assets/img/bg7.jpg";
 
 const useStyles = makeStyles(styles);
 

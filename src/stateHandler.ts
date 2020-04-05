@@ -1,7 +1,7 @@
 /**
  * Material.App - Redux state debugger.
  *
- * @ 19.12.2019 # Aleksandr <Vorkunov.Al.Va@omega.sbrf.ru>
+ * @ 19.12.2019 # Aleksandr <developing@nodes-tech.ru>
  */
 
 export default function stateHandler({ getState }) {

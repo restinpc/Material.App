@@ -1,7 +1,7 @@
 /**
  * Material.App - Sidebar component.
  *
- * @ 06.02.2020 # Aleksandr <Vorkunov.Al.Va@omega.sbrf.ru>
+ * @ 06.02.2020 # Aleksandr <developing@nodes-tech.ru>
  */
 
 import * as React from "react";
@@ -12,7 +12,7 @@ import "./Sidebar.css";
 import isString from "../../functions/isString";
 import {RefObject} from "react";
 // @ts-ignore
-import logo from "../../assets/img/logo.webp";
+import logo from "../../assets/img/logo.png";
 
 class SidebarComponent extends React.Component<ISidebarProps, ISidebarState> {
     state: ISidebarState;

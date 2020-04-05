@@ -1,7 +1,7 @@
 /**
  * Material.App - Application index file.
  *
- * @ 19.12.2019 # Aleksandr <Vorkunov.Al.Va@omega.sbrf.ru>
+ * @ 19.12.2019 # Aleksandr <developing@nodes-tech.ru>
  */
 
 import "core-js";

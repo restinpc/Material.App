@@ -1,7 +1,7 @@
 /**
  * Material.App - Dashboard data, props and state interface.
  *
- * @ 19.12.2019 # Aleksandr <Vorkunov.Al.Va@omega.sbrf.ru>
+ * @ 19.12.2019 # Aleksandr <developing@nodes-tech.ru>
  */
 
 import {ITaskListItem} from "../../actions";

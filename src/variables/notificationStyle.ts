@@ -1,7 +1,7 @@
 /**
  * Material.App - Notifications stylesheets.
  *
- * @ 19.12.2019 # Aleksandr <Vorkunov.Al.Va@omega.sbrf.ru>
+ * @ 19.12.2019 # Aleksandr <developing@nodes-tech.ru>
  */
 
 const defaultWidth = window.screen.width > 768

@@ -1,7 +1,7 @@
 /**
  * Material.App - функция отображения всплывающего сообщения с предупреждением.
  *
- * @ 27.11.2019 # Aleksandr <Vorkunov.Al.Va@omega.sbrf.ru>
+ * @ 27.11.2019 # Aleksandr <developing@nodes-tech.ru>
  */
 
 import * as React from "react";

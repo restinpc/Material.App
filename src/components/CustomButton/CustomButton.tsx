@@ -1,7 +1,7 @@
 /**
  * Material.App - CustomButton component.
  *
- * @ 21.01.2019 # Aleksandr <Vorkunov.Al.Va@omega.sbrf.ru>
+ * @ 21.01.2019 # Aleksandr <developing@nodes-tech.ru>
  */
 
 import * as React from "react";

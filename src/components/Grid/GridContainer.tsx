@@ -1,7 +1,7 @@
 /**
  * Material.App - GridContainer component.
  *
- * @ 06.02.2020 # Aleksandr <Vorkunov.Al.Va@omega.sbrf.ru>
+ * @ 06.02.2020 # Aleksandr <developing@nodes-tech.ru>
  */
 
 import React from "react";

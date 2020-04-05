@@ -1,7 +1,7 @@
 /**
  * SGD-Extractor - цветовая палитра приложения
  *
- * @ 09.12.2019 # Aleksandr <Vorkunov.Al.Va@omega.sbrf.ru>
+ * @ 09.12.2019 # Aleksandr <developing@nodes-tech.ru>
  */
 
 const sidebarIconColor = "#222";

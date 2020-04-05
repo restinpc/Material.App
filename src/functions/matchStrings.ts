@@ -1,7 +1,7 @@
 /**
  * Material.App - функция сравнения строк для сортировок
  *
- * @ 06.12.2019 # Aleksandr <Vorkunov.Al.Va@omega.sbrf.ru>
+ * @ 06.12.2019 # Aleksandr <developing@nodes-tech.ru>
  */
 
 export default function matchString(string1, string2){
