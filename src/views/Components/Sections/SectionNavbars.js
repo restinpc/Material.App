@@ -102,7 +102,7 @@ export default function SectionNavbars() {
                       left
                       hoverColor="info"
                       dropdownHeader="Dropdown Header"
-                      buttonIcon="settings"
+                      buttonIcon={Settings}
                       buttonProps={{
                         className: classes.navLink,
                         color: "transparent"

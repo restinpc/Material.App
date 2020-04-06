@@ -4,6 +4,7 @@ import InputAdornment from "@material-ui/core/InputAdornment";
 import Icon from "@material-ui/core/Icon";
 import People from "@material-ui/icons/People";
 import Email from "@material-ui/icons/Email";
+import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import GridContainer from "../../../components/Grid/GridContainer";
 import GridItem from "../../../components/GridItem/GridItem";
 import Card from "../../../components/Card/Card";
@@ -65,9 +66,7 @@ export default function SectionLogin() {
                         type: "password",
                         endAdornment: (
                             <InputAdornment position="end">
-                              <Icon className={classes.inputIconsColor}>
-                                lock_outline
-                              </Icon>
+                              <LockOutlinedIcon className={classes.inputIconsColor} />
                             </InputAdornment>
                         ),
                         autoComplete: "off"

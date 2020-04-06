@@ -4,6 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
 import Check from "@material-ui/icons/Check";
 import Warning from "@material-ui/icons/Warning";
+import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined';
 // core components
 import SnackbarContent from "../../../components/Snackbar/SnackbarContent";
 import Clearfix from "../../../components/Clearfix/Clearfix";
@@ -30,7 +31,7 @@ export default function SectionNotifications() {
         }
         close
         color="info"
-        icon="info_outline"
+        icon={InfoOutlinedIcon}
       />
       <SnackbarContent
         message={
@@ -63,7 +64,7 @@ export default function SectionNotifications() {
         }
         close
         color="danger"
-        icon="info_outline"
+        icon={InfoOutlinedIcon}
       />
       <Clearfix />
     </div>

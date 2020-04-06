@@ -83,7 +83,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "deploy": "cd /var/www/html && ls | grep -v '.htaccess' | xargs rm -rf && cd /home/ec2-user/app && node scripts/build.js && cd /home/ec2-user/app/build && zip -r -9 build.zip * && mv build.zip /home/ec2-user/html && cd /home/ec2-user/html && unzip build.zip && rm build.zip",
+    "deploy": "cd /var/www/html && ls | grep -v '.htaccess' | xargs rm -rf && cd /home/ec2-user/app && node scripts/build.js && cd /home/ec2-user/app/build && zip -r -9 build.zip * && cp build.zip /home/ec2-user/html && cd /home/ec2-user/html && unzip build.zip && rm build.zip",
     "test": "node scripts/test.js --env=jsdom",
     "production": "node scripts/jest.js && node scripts/build.js"
   },
