@@ -36,6 +36,7 @@ export default function Components(props) {
             </NavLink>
         }
         rightLinks={<HeaderLinks />}
+        fixed
         color="transparent"
         changeColorOnScroll={{
             height: 0,
